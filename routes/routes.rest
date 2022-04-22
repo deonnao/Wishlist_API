@@ -1,0 +1,30 @@
+GET http://localhost:3000/itemRoutes
+
+###
+
+GET http://localhost:3000/itemRoutes
+
+###
+
+POST  http://localhost:3000/itemRoutes
+Content-Type: application/json
+
+{
+    "itemName": "BOX OF 24 CRAYONS",
+    "goal": "700",
+    "price": "5",
+    "url": "https://www.amazon.com/BIC-Comfort-Ballpoint-Medium-36-Count/dp/B00V3RI786/ref=sr_1_2_sspa?keywords=black+pens&qid=1650424658&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFMN1o3VlNLQjc4QUYmZW5jcnlwdGVkSWQ9QTA2NzQyOTlXTk5EOEk3VkE4Sk0mZW5jcnlwdGVkQWRJZD1BMDY0MDYzMzJXODQ3QUdGWk81Rkgmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl"
+}
+
+###
+
+DELETE http://localhost:3000/itemRoutes
+
+###
+
+PATCH http://localhost:3000/itemRoutes
+Content-Type: application/json
+
+{
+    "itemName": "New Item"
+}
